@@ -22,7 +22,7 @@ from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import PolynomialFeatures
 from sklearn.svm import SVR
 
-from DiamondPricePrediction import GradientBoostingRegressorModel
+#from DiamondPricePrediction import GradientBoostingRegressorModel
 
 st.set_page_config(
     page_title="Diamond Price Prediction",
