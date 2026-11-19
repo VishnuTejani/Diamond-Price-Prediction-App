@@ -33,7 +33,7 @@ st.set_page_config(
 st.title("Diamond Price Prediction")
 
 # Data Collection
-Data = pd.read_csv('D:/DS/ML/Dataset/diamonds.csv')
+Data = pd.read_csv('diamonds.csv')
 
 EDANumCols = ['carat', 'depth', 'table', 'price', 'x', 'y', 'z']
 EDACatCols = ['cut', 'color', 'clarity']
